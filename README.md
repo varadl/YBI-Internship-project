@@ -54,6 +54,21 @@ The dataset contains student-related academic and behavioral attributes.
 
 ---
 
+## 🧩 Project Implementation
+The complete implementation of this project is provided using a **Python script (.py file)**.
+
+- **File Name:** `student_performance_prediction.py`  
+- The script includes:
+  - Dataset creation  
+  - Feature scaling  
+  - Model training  
+  - Model evaluation  
+  - Sample prediction  
+
+> Note: The project is submitted using the `.py` file to ensure smooth execution and avoid notebook rendering issues on GitHub.
+
+---
+
 ## 📈 Model Evaluation Metrics
 - **R² Score** – Measures how well the model explains variance in the target variable  
 - **Mean Squared Error (MSE)** – Measures prediction error  
@@ -81,25 +96,7 @@ The model achieved **good accuracy**, indicating reliable predictive performance
 
 ---
 
-## ✅ Conclusion
-The project successfully demonstrates the application of **Machine Learning for student performance prediction**.  
-The Linear Regression model provides accurate and interpretable results, making it suitable for **academic projects and internship evaluation**.
-
----
-
-## 🏫 Internship Details
-- **Organization:** YBI Foundation  
-- **Duration:** 1 Month  
-- **Domain:** Machine Learning  
-- **Project Type:** Academic / Internship Project  
-
----
-
-## 👨‍💻 Author
-**Varad Lokhande**  
-Computer Engineering Student  
-
----
-
-## 📌 Acknowledgement
-I would like to thank **YBI Foundation** for providing the opportunity to work on this project and gain hands-on experience in Machine Learning concepts and practical implementation.
+## ▶️ How to Run the Project
+```bash
+pip install pandas numpy scikit-learn
+python student_performance_prediction.py
